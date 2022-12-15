@@ -1,0 +1,282 @@
+*{
+    
+    padding: 0%;
+    margin: 0%;
+}
+
+nav{
+    
+    width:100%;
+    height: 100px;
+    background-color:rgba(255, 199, 0);
+
+}
+html, body{
+   height: 100%;
+}
+
+#wrapper_index{
+    margin: 0 auto 0px 60px;
+    width: 90%;
+    min-height: 100%;
+    
+}
+
+#intro{
+    overflow: auto;
+    padding-bottom: 100px ;
+    
+
+}
+
+ul li {
+list-style: none;
+display: inline-block;
+line-height: 100px;
+
+}
+ul li a {
+display: block;
+text-decoration: none;
+font-size: 20px;
+font-family: Arial;
+padding: 0 20px;
+
+
+}
+ul li a:hover{
+    color: rgb(164, 31, 31);
+}
+.menuTitle{
+    float: right;
+    padding-right: 60px;
+    color: rgb(164, 31, 31);
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 0 0 2px black;
+}
+body{
+    background-color:rgb(241, 241, 241);
+}
+
+/*Index css */
+
+.h2-Intro{
+    color: rgb(164, 31, 31);
+    font-size: 40px;
+    text-align: center;
+
+}
+#intro h1{
+    color: green;
+    font-size: 50px;
+}
+
+.img-taco{
+    width: 259px;
+    height: 194px;
+    background-image: url(image/torta.jpeg);
+    float: left;
+    
+}
+.img-taco2{
+   
+    background-image: url(image/Taco.jpeg);
+}
+
+
+.boxSize{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+        margin: 10px;
+        padding: 20px;
+}
+
+ .contMon{
+    height: 300px; 
+    background-color: white;
+    width: 300px;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: auto;
+    padding: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 25px;
+      
+ }
+
+ 
+ .contTues{
+    height: 300px; 
+    background-color: white;
+    width: 300px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: 40px;
+    padding: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 25px;
+      
+ }
+ 
+ /*Menu css */
+
+ #h1Menu{
+     text-align: center;
+     
+ }
+
+ #pMenu{
+    text-align: center;
+    color: rgb(164, 31, 31);
+ }
+ #centerFood{
+    height: 300px; 
+    background-color: white;
+    width: 300px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 25px;
+ }
+ #leftFood{
+    height: 300px; 
+    background-color: white;
+    width: 300px;
+    text-align: center;
+    margin-right: auto;
+    padding: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 25px;
+ }
+
+ #rightFood{
+    height: 300px; 
+    background-color: white;
+    width: 300px;
+    text-align: center;
+    margin-left: auto;
+    padding: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 25px;
+ }
+ /* order page css*/
+ #h1Order{
+    text-align: center;
+
+ }
+ #h2Order{
+    color: rgb(164, 31, 31);
+    font-size: 50px;
+ }
+ #orderSection{
+    background-color: white;
+    width: 600px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 25px;
+    
+}
+#pOrder{
+    font-size: 20px;
+}
+ #h2Cust{
+    color: rgb(164, 31, 31);
+    font-size: 40px;
+ }
+ .order-section button{
+     width: 50px;
+ }
+ 
+
+/*Ticket page css */
+
+#h1ticket{
+    color: rgb(176, 17, 145);
+    font-size: 30px;
+}
+#ticketSection{
+    background-color: white;
+    width: 300px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 25px;
+    
+}
+
+#wrapperTicket{
+    margin: 50px 0 auto 0;
+    width: 100%;
+    min-height: 100%;
+    font-size: 20px;
+    }
+
+#rightbox{
+    height: 300px; 
+    background-color: white;
+    width: 300px;
+    text-align: center;
+    margin-right: auto;
+    padding: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 25px;
+}
+
+#leftbox{
+    height: 300px; 
+    background-color: white;
+    width: 300px;
+    text-align: center;
+    margin-left: auto;
+    padding: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 25px;
+}
+#btn{
+    border-radius: 4px;
+}
+/* Footer css*/
+footer{
+    background-color:rgb(255, 199, 0);
+    position: relative;
+    height: 100px;
+    margin-top: -100px;
+    clear: both;
+
+    
+}
+.h3-Hours{
+   font-size: 30px;
+   color: rgb(0, 99, 65);
+   text-align: center;
+}
+#Hours p{
+font-size: 20px;
+text-align: center;
+}
+
+
+/* Contact css */
+
+.h1-contact{
+    color: rgb(0, 99, 65);
+    font-size: 40px;
+}
+
+#bodyContact{
+    text-align: center;
+    padding-top: 20px;
+}
+#pContact{
+    font-size: 20px;
+}
